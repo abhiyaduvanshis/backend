@@ -2,6 +2,8 @@ import dotenv from "dotenv"
 import dbConnect from "./db/index.js"
 import {app} from "./app.js"
 
+console.log('helloo')
+
 dotenv.config({
     path:'./env'
 })

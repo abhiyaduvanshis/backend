@@ -31,5 +31,5 @@ class ApiError extends Error{
 
     
 }
-console.log('apierrro')
+
 export {ApiError}

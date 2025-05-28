@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 import dbConnect from "./db/index.js"
 import {app} from "./app.js"
 dotenv.config({
-    path:'./env'
+    path:'/home/ubuntu/actions-runner/_work/backend/backend/.env'
 })
 
 const PORT = process.env.PORT || 3000;

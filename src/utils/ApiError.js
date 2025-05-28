@@ -16,6 +16,7 @@ class ApiError extends Error{
         } else{
             Error.captureStackTrace(this, this.constructor)
         }
+        
     }
 
     toJSON() {
@@ -27,6 +28,8 @@ class ApiError extends Error{
             stack: this.stack
         };
     }
-}
 
+    
+}
+console.log('apierrro')
 export {ApiError}

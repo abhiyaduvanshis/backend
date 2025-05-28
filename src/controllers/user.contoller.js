@@ -7,6 +7,8 @@ import { sendEmailToUser } from "../utils/sendEmail.js";
 import { forgetPasswordEmail } from "../utils/sendForgetEmail.js";
 import jwt from "jsonwebtoken"
 
+console.log(ApiError)
+
 const getGenrateAccessRefreshToken = async(userId) =>{
     try {
 

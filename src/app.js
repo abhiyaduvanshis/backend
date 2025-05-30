@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser"
 const app = express()
 
 app.use(cors({
-    origin:'http://192.168.1.5:3000',
+    origin:'https://frontend-nine-gamma-23.vercel.app',
     credentials: true
 }))
 
